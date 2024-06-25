@@ -1,1 +1,8 @@
-<H1>Hello</H1>
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/style.css" rel="stylesheet" />
+<script type="module">
+import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/chat.bundle.es.js';
+
+createChat({
+	webhookUrl: 'https://hardikdev.app.n8n.cloud/webhook'
+});
+</script>
